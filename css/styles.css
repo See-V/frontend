@@ -139,6 +139,15 @@ a {
     padding:5px;
 }
 
+.cv-form label,
+.cv-form input[type="text"] {
+    display: block;
+    font-size: 13px;
+}
+
+.cv-form label{
+    font-weight: bold;
+}
 
 .site-footer {
     padding: 1.5em 0;
