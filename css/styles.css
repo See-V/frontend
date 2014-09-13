@@ -1,0 +1,148 @@
+@import url(normalize.css);
+@import url(font-awesome.min.css);
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    max-height: 100%;
+    font-family: 'Open Sans', Tahoma,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+    background: #fff;
+    color: #555;
+}
+
+a {
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -o-transition: color .3s;
+    transition: color .3s;
+}
+
+.site-logo {
+    float: left;
+    width: 450px;
+}
+
+.site-nav {
+    float: right;
+    width: 450px;
+    text-align: right;
+}
+
+.site-nav a {
+    display: inline-block;
+}
+
+.site-header {
+    width: 980px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.site-primary {
+    width: 980px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.site-content {
+    float: left;
+    width: 890px;
+}
+
+.site-sidebar {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.site-sidebar+.site-content {
+    width: 760px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+    border: 3px solid #fff;
+
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.profile-pic img {
+    height: 100%;
+}
+
+.profile-name {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.profile-location,
+.profile-tel,
+.profile-email {
+    font-size: 13px;
+}
+
+.profile-headline {
+    font-size: 12px;
+}
+
+.cv-education--school {
+    margin-bottom: 10px;
+}
+
+.cv-education--year {
+    font-style: italic;
+}
+
+.cv-education--icon {
+    margin-right: 5px;
+}
+
+.cv-skills--icon {
+    margin-right: 10px;
+}
+
+.cv-skills--container {
+    display: table;
+}
+
+.cv-skills--skill {
+    display: table-row;
+}
+
+
+.cv-skills--name,
+.cv-skills--level {
+    display: table-cell;
+    padding:5px;
+}
+
+
+.site-footer {
+    padding: 1.5em 0;
+    overflow: hidden;
+    margin-top: 15px;
+    text-align: center;
+}
